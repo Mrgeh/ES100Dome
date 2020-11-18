@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:id="@+id/iv_edit_picture"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dip"
+            android:paddingLeft="100dip"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_contact_picture_bg"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_edit_picture"
+            android:paddingLeft="20dip"
+            android:text="选择照片"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dip"
+            android:text="姓名"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/name_editText1"
+            android:layout_width="210dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dip"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black" >
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

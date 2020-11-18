@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shape_conf_mode"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:background="@drawable/shape_conf_mode"
+    android:layout_width="114dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+
+        android:id="@+id/tv_small"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="画中画"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:alpha="0.21"/>
+    <TextView
+        android:id="@+id/tv_remote_main"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="远端图像"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:alpha="0.21"/>
+    <TextView
+        android:id="@+id/tv_remote_sub"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="远端演示"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:alpha="0.21"/>
+    <TextView
+        android:id="@+id/tv_remote_doc"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="远端文档"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+# ICE �ͻ��˳��������ļ�
+OpenAPIClient.Endpoints=default -p 6636
+
+#��ӡ�����쳣Trace��־
+Ice.Warn.Connections=1
+
+# �ر�ICE���ӿ��йر����ӻ���
+Ice.ACM.Client=0
+Ice.ACM.Server=0
+
+#�������
+Ice.Trace.Network=1
+
+#�ͻ����̳߳��̸߳���
+Ice.ThreadPool.Client.Size=4
+
+#�ͻ����������̳߳ظ���
+OpenAPIClient.ThreadPool.Size=2
+
+#ȱʡ�˵�host����
+#Ice.Default.Host=127.0.0.1
+
+#������ʱʱ������(ms)
+Ice.Override.Timeout=10000
+
+#���ӳ�ʱ����
+Ice.Override.ConnectTimeout=5000
+
+Ice.Default.EncodingVersion=1.0
+
+#Ice.Trace.Network=1
+#Ice.Trace.Protocol=1
